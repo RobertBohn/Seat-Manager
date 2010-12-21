@@ -1,0 +1,175 @@
+body {
+    color: #222;
+    background-color: #dcdcdc;
+    font-family: Helvetica;    
+    margin: 0;
+    padding: 0;
+}
+
+#container {   
+    text-align: left;
+    margin: 5px;
+    min-width: 635px;
+    display: none;
+}
+
+#header h1 {
+    padding: 6px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #708090;
+    color:#b5efff;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    text-shadow: 0px 1px 0px #000;
+    margin-right: 5px;
+}
+
+#controls {    
+    width: 645px;
+    margin-bottom: 5px;
+    margin-top:5px;
+}
+
+#select {
+    float: left;
+    padding-right: 30px;
+    margin-bottom: 5px;
+}
+
+#select select {
+    display: block;
+    width: 200px;
+}
+
+#action {
+     float: left;
+     padding-right:40px;
+}
+
+#action select {
+     width: 125px;
+     display: block;
+}
+
+#from, #to {
+     width: 60px;
+     display: none;
+}
+
+#submit {
+     width: 125px;
+     display: block;
+     height: 28px;
+}
+
+.legend {
+    float:left;
+    padding-right:20px;
+}
+
+.legend img {
+    width:12px;
+    height:12px;
+}
+
+#zoomin {
+     display: block;
+     font-size: 12px;
+     font-weight: bold;
+     width: 25px;
+     height: 25px;
+}
+
+#zoomout {
+     display: block;
+     font-size: 16px;
+     font-weight: bold;
+     width: 25px;
+     height: 25px;
+}
+
+#map {
+     background-color:white;
+     text-align: left;
+     clear: both;
+     width: 100px;
+     height: 100px;
+     overflow: scroll;
+     border: 1px solid #999;
+}
+
+#gate {
+  margin: 0px;
+  padding: 0px;
+  width: 0px;
+  height: 0px;
+  text-align:left;  
+  position: relative;
+}
+
+#gate li {
+  display: inline;
+}
+
+#gate img {
+  display: block;
+  outline: none;
+  text-decoration: none;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: 10;
+}
+
+
+#login {
+    text-align: center;
+    margin: 10px;
+    width: 250px;   
+    border: 2px solid #708090;
+}
+
+#login h1 {
+    margin-top: 0;
+    padding: 6px 6px 6px 60px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    background-color: #708090;
+    color:#b5efff;
+    text-shadow: 0px 1px 0px #000;   
+}
+
+#login p {
+    margin: 5px;
+    padding-left:10px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+}
+
+#username, #password {
+    margin-right:15px;
+    width:120px;
+    float:right;
+}
+
+#signin {    
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
